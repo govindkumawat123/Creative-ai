@@ -532,6 +532,7 @@ header::after {
   border-radius: 100px;
   background-color: #ffffff;
   border: 1px solid #fff;
+  white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;

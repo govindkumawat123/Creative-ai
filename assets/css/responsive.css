@@ -110,6 +110,17 @@ header{
     font-size: 28px;
     line-height: 37.6px;
   }
+
+      .ct_hero_right_main {
+        max-width: 450px;
+        width: 450px;
+    }
+    br {
+        display: none;
+    }
+        .ct_app_types_img {
+        padding-inline: 20px;
+    }
 }
 
 @media  (min-width:1048px) and (max-width:1180px) {
@@ -159,6 +170,15 @@ width: 360px !important;
          }
          
          .connectors-layer { display: none; }
+             .ct_hero_right_main {
+        display: none;
+    }
+        .ct_types_app_card {
+        grid-template-columns: auto;
+    }
+        .ct_app_types_img {
+        text-align: center;
+    }
 }
 @media screen and (max-width:767px){
     .cti_home_banner_cnt h1 {
@@ -183,7 +203,26 @@ width: 360px !important;
     font-size: 28px;
     line-height: 31px;
 }
-
+.ct_fs_44 {
+        font-size: 35px;
+        line-height: 48.22px;
+    }
+    .ct_fs_26 {
+        font-size: 22px;
+    }
+        .ct_fs_38 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .ct_row_reverse_767 {
+        flex-direction: column-reverse;
+    }
+    .ct_blue_outline_btn, .ct_blue_btn_fill {
+        padding-inline: 15px !important;
+    }
+        header, .ct_px_80 {
+        padding-inline: 30px;
+    }
 }
 @media screen and (max-width:575px){
     .cti_home_banner_cnt h1 {
@@ -208,4 +247,23 @@ width: 360px !important;
 }
 .center-row { height: 120px; }
          .orb { width:88px; height:88px; }
+             .ct_btn_group {
+        flex-direction: column;
+    }
+        .ct_btn_group {
+        gap: 20px;
+    }
+    .ct_btn_group .ct_blue_outline_btn, .ct_btn_group .ct_blue_btn_fill {
+        width: 100%;
+    }
+        .ct_fs_44 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .ct_header_main {
+      padding-inline: 10px;
+    }
+    header, .ct_px_80 {
+        padding-inline: 15px;
+    }
 }

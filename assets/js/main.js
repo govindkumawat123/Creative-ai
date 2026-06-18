@@ -39,16 +39,14 @@ document.querySelectorAll('.ct_sticky_scroll_main').forEach((section) => {
   });
 });
 $(document).ready(function(){
-      $(".ct_hamburger").click(function () {
+  $(".ct_hamburger").click(function () {
     $(".ct_middle_navbar ul:not(.ct_dropdown_items ol) ").addClass("show");
   });
   $(".ct_close_bar").click(function () {
     $(".ct_middle_navbar ul:not(.ct_dropdown_items ol) ").removeClass("show");
   });
 
-  
-
-//   Testimonial Slider Js S
+  //   Testimonial Slider Home Js S
   $(".cti_testimonial_slider").owlCarousel({
     loop: true,
     margin: 40,
@@ -72,5 +70,28 @@ $(document).ready(function(){
       },
     },
   });
-//   Testimonial Slider Js E
+  //   Testimonial Slider home Js E
+
+  // Testimonial Inner page S
+  $(".ct_testimonial_slider").owlCarousel({
+    loop: true,
+    margin: 15,
+    nav: true,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      575: {
+        items: 1,
+      },
+      767: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+  // Testimonial Inner page E
 })
