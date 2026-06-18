@@ -1,0 +1,211 @@
+
+@media screen and (max-width:1399px){
+    .ct_sass_card_img img{
+        height: auto;
+    }
+    .ct_sass_card_img{
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width:1199px){
+    .ct_hamburger{
+    color: #fff;
+    display: flex;
+}
+ .cti_saas_card{
+        grid-template-columns: auto auto;
+    }
+    .ct_right_menu ul{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+
+
+header{
+  backdrop-filter: unset;
+  padding-block: 15px;
+}
+
+ .ct_middle_navbar ul {
+    position: fixed;
+    flex-direction: column;
+    right: -100%;
+    top: 0px;
+    max-width: 300px;
+    width: 100%;
+    padding: 80px 20px;
+    align-items: flex-start;
+    height: 100dvh;
+    transition: 0.6s ease all;
+    transform: scaleX(0);
+    z-index: 99;
+    transform-origin: right;
+    bottom: 0px;
+    perspective: 500px;
+    perspective-origin: top;
+    background-color: #01010280;
+    backdrop-filter: blur(20px);
+    gap: 0px !important;
+    -webkit-backdrop-filter: blur(20px);
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 10px 40px rgba(0, 0, 0, 0.35);
+  }
+
+  .ct_middle_navbar ul.show {
+    transform: scale(1);
+    right: 0%;
+  }
+  .ct_dropdown {
+    position: relative !important;
+  }
+  .ct_dropdown_items ol {
+    position: unset !important;
+    max-width: 100%;
+    padding: 0 !important;
+    height: 100%;
+    transform: scale(1);
+    background-color: transparent;
+    left: 0px;
+    right: 0px;
+  }
+  .ct_middle_navbar ul:not(.ct_dropdown_items ol) {
+    align-items: start;
+    justify-content: start;
+  }
+  .ct_middle_navbar li+li {
+    width: 100%;
+  }
+  .ct_custom_dropdown {
+    position: absolute;
+  }
+  .ct_custom_dropdown {
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+    overflow-y: auto;
+    height: auto;
+    max-height: 400px;
+  }
+  .ct_close_bar {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 24px;
+    transition: 0.4s ease all;
+    z-index: 9999;
+     display: block;
+       color: #fff;
+     
+  }
+
+  .ct_close_bar:hover {
+    transform: rotate(360deg);
+  }
+  .ct_fs_34 {
+    font-size: 28px;
+    line-height: 37.6px;
+  }
+}
+
+@media  (min-width:1048px) and (max-width:1180px) {
+    .conn-tl , .conn-bl{
+width: 400px !important;
+    }
+    .conn-tr > svg, .conn-br > svg{
+width: 400px !important;
+    }
+} 
+      @media  (min-width:991px) and (max-width:1048px) {
+    .conn-tl , .conn-bl{
+width: 360px !important;
+    }
+    .conn-tr > svg, .conn-br > svg{
+width: 360px !important;
+
+    }
+
+
+
+  
+}
+@media screen and (max-width:991px){
+    .cti_saas_card {
+        grid-column-gap: 1.875rem;
+        grid-row-gap: 1.875rem;
+        flex-flow: column;
+        position: static;
+    }
+        .cti_content {
+        max-width: 100%;
+    }
+    .ct_sass_card_img {
+        width: 100%;
+    }
+      .cti_saas_card{
+        grid-template-columns: auto;
+    }
+ 
+    .cti_heading{
+    font-size: 50px;
+    line-height: 50px;
+}
+ .center-row { 
+         display: none;
+         }
+         
+         .connectors-layer { display: none; }
+}
+@media screen and (max-width:767px){
+    .cti_home_banner_cnt h1 {
+    font-size: 60px;
+    max-width: 498px;
+   
+}
+.ct_video_banner img,.ct_video_banner video{
+    aspect-ratio: unset;
+}
+.ct_home_titles_cnt h2 {
+    font-size: 60px;
+    line-height: 63px;
+  
+}
+.cti_heading{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.design-box-card h3{
+    font-size: 28px;
+    line-height: 31px;
+}
+
+}
+@media screen and (max-width:575px){
+    .cti_home_banner_cnt h1 {
+        font-size: 41px;
+        max-width: 498px;
+    }
+
+.ct_home_titles_cnt h2 {
+    font-size: 40px;
+    line-height: 43px;
+    max-width: 399px;
+  
+}
+.cti_stat_box h3{
+    font-size: 28px;
+}
+.cti_stats_wrapper{
+    gap: 40px;
+}
+.cti_heading{
+    font-size: 32px;
+}
+.center-row { height: 120px; }
+         .orb { width:88px; height:88px; }
+}
