@@ -94,4 +94,73 @@ $(document).ready(function(){
     },
   });
   // Testimonial Inner page E
+
+  // Retail app Slider S
+  $("#ct_retaial_app_slider").owlCarousel({
+    loop: true,
+    margin: 50,
+    nav: true,
+    autoPlay: true,
+    slideSpeed: 1000,
+    smartSpeed: 1000,
+    autoplayTimeout: 2000,
+    autoplaySpeed: 3000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+  // Retail app Slider E
+
+  $(".ct_pricing_works")
+    .on("initialized.owl.carousel changed.owl.carousel", function (e) {
+      if (!e.namespace) {
+        return;
+      }
+      $("#counter").text(
+        e.relatedTarget.relative(e.item.index) + 1 + " of " + e.item.count,
+      );
+    })
+    .owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        1000: {
+          items: 1,
+        },
+      },
+    });
+
+  // Related Article Slider Js S
+  $(".ct_related_article").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+  // Related Article Slider Js E
 })
