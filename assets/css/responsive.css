@@ -1,3 +1,17 @@
+@media screen and (max-width: 1536px) {
+  .ct_hero_right_main {
+    max-width: 649px;
+    width: 649px;
+  }
+
+  .ct_hero_right_main>img {
+    max-width: 649px;
+    width: 649px;
+  }
+
+  
+}
+
 
 @media screen and (max-width:1399px){
     .ct_sass_card_img img{
@@ -7,7 +21,21 @@
         padding: 10px;
     }
 }
+@media screen and (max-width: 1338px) {
+  .ct_hero_right_main {
+    max-width: 549px;
+    width: 549px;
+  }
 
+  .ct_hero_right_main>img {
+    max-width: 649px;
+    width: 649px;
+  }
+
+  br {
+    display: none;
+  }
+}
 
 @media screen and (max-width:1199px){
     .ct_hamburger{
