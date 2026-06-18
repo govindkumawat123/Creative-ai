@@ -163,4 +163,49 @@ $(document).ready(function(){
     },
   });
   // Related Article Slider Js E
+
+
+  $(".ct_team_slider_1").owlCarousel({
+    loop: true,
+    center: true,
+    nav: false,
+    margin: 20,
+    autoplay: true,
+    slideTransition: "linear",
+    autoplaySpeed: 6000,
+    smartSpeed: 6000,
+    // autoplayTimeout: 6000,
+    autoplayHoverPause: false,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      1000: {
+        items: 4,
+      },
+    },
+  });
+  $(".ct_featured_slider").owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplaySpeed: 1000,
+    smartSpeed: 1000,
+    nav: false,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 6,
+      },
+    },
+  });
 })
