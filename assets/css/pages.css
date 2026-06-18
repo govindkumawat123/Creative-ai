@@ -106,6 +106,9 @@
 .ct_app_types_cnt h4, .ct_app_types_cnt p {
     color: #fff;
 }
+.ct_perks_job_list_ul ul li + li {
+    margin-top: 6px;
+}
 
 .ct_white_outline_border {
     border-color: #fff;
@@ -820,3 +823,360 @@ border: 1px solid #fff;
 /* Faq section css E */
 
 /*✨✨ Faq Section E ✨✨*/
+.ct_ceo_single_img {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.ct_flex_shrink_0{
+    flex-shrink: 0;
+}
+
+.ct_say_hello_blue_bg {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-inline: auto;
+}
+.ct_say_hello_blue_bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #e6e6e6;
+    border-radius: 100%;
+}
+.ct_ceo_single_img img {
+    width: 150px !important;
+    height: 150px;
+    object-fit: cover;
+    background: #e6e6e6;
+    border-radius: 100px !important;
+    flex-shrink: 0;
+}
+
+.ct_say_hello_blue_bg a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #00000094;
+    display: flex;
+;
+    align-items: center;
+    justify-content: center;
+    /* color: #fff; */
+    border-radius: 100%;
+    transition: 0.4s linear all;
+    transform: translate(-50%, -50%)  scale(0);
+
+}
+
+.ct_say_hello_blue_bg a i {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    transition: 0.4s linear all;
+    background-color: #fff;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
+.ct_say_hello_blue_bg:hover a{
+      transform:  translate(-50%, -50%) scale(1);
+}
+.ct_say_hello_cnt {
+    padding-block: 20px;
+    transition: 0.4s ease all;
+}
+
+.ct_signature_png img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.ct_value_card ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+.ct_value_card ul li + li{
+    margin-top: 5px;
+}
+.ct_value_card i{
+    color: #3D40F6;
+}
+.ct_value_card_icon{
+    margin-bottom: 15px;
+}
+.ct_say_hello_card {
+    position: relative;
+}
+.ct_say_hello_cnt p {
+    text-align: center;
+}
+
+
+.ct_link_green {
+    position: relative;
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 4px;
+    color: #000;
+    font-weight: 600;
+}
+
+.ct_link_blue {
+    border-color: var(--dark_blue);
+}
+
+.ct_team_card img {
+    height: 343px;
+    object-fit: cover;
+}
+.ct_our_mission_blue_bg {
+    background: linear-gradient(180deg, #c5e2f4 0%, rgba(195, 220, 235, 0.9) 100%);
+    padding: 75px 130px;
+    border-radius: 20px;
+}
+.ct_mt_100 {
+    margin-top: 100px;
+}
+.ct_social_img {
+    margin-bottom: 15px;
+}
+.ct_messanory_grid .ct_social_img img {
+    height: 100%;
+    aspect-ratio: 16 / 12;
+    border-radius: 10px;
+}
+.ct_heart_value_card {
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 5px;
+    transition: 0.4s ease all;
+    max-width: 90%;
+    height: 100%;
+    margin-inline: auto;
+}
+.ct_heart_value_icon {
+    margin-bottom: 10px;
+}
+.ct_heart_value_icon svg {
+    width: 30px;
+}
+
+.ct_what_expact_card span {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--dark_blue);
+    font-weight: 700;
+}
+.ct_what_expact_card hr {
+    border-width: 1px;
+    border-color: #000 !important;
+    opacity: 0.8;
+}
+
+
+.ct_pricing_toggle {
+    display: inline-flex;
+    padding: 8px 12px;
+    margin-top: 33px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 24px #0064ff26;
+    gap: 25px;
+}
+
+
+
+.ct_pricing_toggle button {
+    min-height: 42px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #0064ff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 27px;
+}
+.ct_pricing_togglebutton.active{
+    background: linear-gradient(90deg, #1454ff, #2b79ff);
+    color: #fff;
+    box-shadow: 0 10px 20px #2563eb2e;
+}
+
+.ct_pricing_grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 34px;
+}
+
+.ct_price_card {
+    position: relative;
+    padding: 28px 30px 24px;
+    border-radius: 24px;
+    background: #fff;
+    border: 1px solid #d8dde7;
+    box-shadow: 0 8px 28px #10182814;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ct_price_badge {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    padding: 8px 18px;
+    border-radius: 100px;
+    max-width: max-content;
+    background: #0064ff;
+    color: #fff;
+    width: auto;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-inline: auto;
+    display: flex;
+}
+
+.ct_price_credits {
+    margin-bottom: 6px;
+    color: #111827;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.ct_price_value {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+}
+.ct_price_card_top p {
+    margin-bottom: 10px;
+}
+
+.ct_price_card_top > p, .plan_description {
+    margin-bottom: 22px;
+    color: #687086;
+    font-size: 16px;
+    line-height: 1.55;
+    text-align: center;
+}
+.ct_price_offer_slot {
+    margin: 0;
+}
+
+
+.ct_price_cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50px;
+    margin-top: auto;
+    border-radius: 12px;
+    border: 2px solid #0064ff;
+    background: #fff;
+    color: #0064ff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ct_starter_plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: #f6f9ff;
+    color: #1454ff;
+    border: 1px solid #cddcff;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 14px;
+}
+.ct_price_value_with_old {
+    gap: 2px 6px;
+}
+
+.ct_price_previous {
+    color: #7b8496;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.ct_price_current{
+    color: #35be3a;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.ct_price_suffix {
+    color: #35be3a;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.ct_price_offer_wrap {
+    display: none;
+}
+
+
+.ct_pricing_cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 26px 34px 36px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #eef4ff, #f6f2ff);
+    max-width: 916px;
+    margin-inline: auto;
+}
+
+.ct_pricing_cta h4 {
+    margin-bottom: 7px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #0064ff;
+}
+
+.ct_pricing_cta p {
+    margin: 0;
+    color: #687086;
+    font-size: 18px;
+    max-width: 534px;
+    line-height: 1.6;
+}
+.ct_pricing_cta a {
+    display: block;
+}
+.ct_how_works_collapse .accordion-item button:not(.collapsed) {
+    background: linear-gradient(112.78deg, #094cff 29.65%, #1e91d6 107.21%);
+    color: #fff;
+}
+.ct_how_works_collapse .accordion-item+.accordion-item {
+    margin-top: 8px;
+}
