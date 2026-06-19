@@ -181,6 +181,10 @@ width: 360px !important;
         flex-flow: column;
         position: static;
     }
+    .cti_home_banner_cnt h1 {
+        font-size: 68px;
+    }
+
         .cti_content {
         max-width: 100%;
     }
