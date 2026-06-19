@@ -102,6 +102,14 @@ h3 {
   --purple: #5d5cff;
 }
 
+
+.ct_clr_666{
+  color: #666;
+}
+
+.ct_clr_555{
+  color: #555;
+}
 .ct_py_70 {
   padding-block: 70px;
 }
@@ -226,6 +234,13 @@ input[type="number"] {
   line-height: 37.65px;
 }
 
+.ct_fs_35{
+  font-size: 35px;
+}
+
+.ct_fs_20{
+  font-size: 20px;
+}
 .ct_fs_28 {
   font-size: 28px;
   line-height: 39.2px;
