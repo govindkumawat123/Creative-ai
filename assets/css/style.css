@@ -85,6 +85,7 @@ h2,
 h1,
 h3 {
   font-family: delight-regular;
+  letter-spacing: 2px;
 }
 
 :root {
